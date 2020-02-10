@@ -7,6 +7,7 @@ Do the following to run the application
 3. Fire up a terminal of your choice
 
 Data service
+
 4. switch to the online-registration-service folder
 5. run maven clean install (mvn clean instal [if maven is set up as recomended]) - this will build the application and create the jar which wasn't commited. It'll also run tests.
 6. Run the jar using basic java commands ("java -jar target/online-registration-0.0.1-SNAPSHOT.jar")
@@ -16,6 +17,7 @@ Data service
    Set JDBC URL to jdbc:h2:mem:user-registration and connect
 
 UI
+
 10. On a new terminal switch to the same directory but this time go to online-registration-ui
 11. The node modules needed for this project were not commited. So run "npm install"
 12. run "ng serve"
